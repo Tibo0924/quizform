@@ -21,7 +21,7 @@ class App extends Component {
   };
 
   getTags = () => {
-    fetch('/example-tags')
+    fetch('./example-tags')
       .then(res => res.json())
       .then(res => {
         const newState = res.values.map(reason => ({text: reason, id: v1()}));
