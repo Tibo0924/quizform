@@ -21,12 +21,9 @@ class App extends Component {
   };
 
   getTags = () => {
-    fetch('./example-tags')
-      .then(res => res.json())
-      .then(res => {
-        const newState = res.values.map(reason => ({text: reason, id: v1()}));
+		const {values} = this.props.valueData
+  	const newState = values.map(reason => ({text: reason, id: v1()}));
         this.setState({ reasons: newState });
-      });
   };
   
   addReason = (reason) => {
