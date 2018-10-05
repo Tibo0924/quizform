@@ -1,0 +1,35 @@
+
+.main {
+  display: flex;
+  margin: 0 auto;
+  max-width: 60rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+form {
+  text-align: left;
+  width: 100%;
+}
+
+input {
+  padding-left: 0.8rem;
+  height: 1.8rem;
+  width: 99.23%;
+  max-width: 60rem;
+  font-size: 12pt;
+  border: 1px solid #80808075;
+}
+
+input::placeholder {
+  color: rgb(154, 155, 156);
+}
+
+a {
+  color: rgb(88, 172, 134);
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: ponter;
+}

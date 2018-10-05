@@ -1,0 +1,28 @@
+.image_collection {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 60rem;
+  margin: auto;  
+}
+
+.single_image {
+  width: calc((100% / 3) - 10px);
+  min-width: 14rem;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+
+.img {
+  max-width: 100%;
+}
+
+.imageName {
+  background-color: rgb(88, 172, 134);
+  margin: 0;
+  padding: 0.7rem;
+  font-size: 1.1rem;
+  color: white;
+}

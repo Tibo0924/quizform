@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet');
+
+.App {
+  text-align: center;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 400;
+  padding: 3rem 2rem;
+}
+
+/* media queries */
+@media only screen and (max-device-width: 680px) {
+  .imageName {
+    font-size: 10pt;
+  }
+}
+
+/* iPhone 6, 7, 8 -----------Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+  /* Styles */
+  .form {
+    font-size: 7pt;
+  }
+  .imageName{
+    font-size: 10pt;
+  }
+  input {
+    font-size: 10pt;
+  }
+  #txtArea {
+    font-size: 10pt;
+  }
+}
+
+/* iPhone 6, 7, 8 -----------Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-height: 800px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+  /* Styles */
+  .form {
+    font-size: 6pt;
+  }
+  .imageName {
+    font-size : 8pt;
+  }
+  .singleImage {
+    padding-bottom: 1rem;
+  }
+  input {
+    font-size: 10pt;
+  }
+  #txtArea {
+    font-size: 10pt;
+  }
+  .single_image {
+    width: 90%;
+  }
+}

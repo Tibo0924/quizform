@@ -1,0 +1,19 @@
+{
+  "name": "quizform",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+      "email-validator": "^2.0.4",
+      "react": "^16.5.2",
+      "react-dom": "^16.5.2",
+      "react-scripts": "1.1.5",
+      "uuid": "^3.3.2"
+  },
+  "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:8081/"
+}
